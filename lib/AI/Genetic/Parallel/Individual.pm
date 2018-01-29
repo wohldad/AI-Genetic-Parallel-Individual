@@ -38,6 +38,15 @@ store the DNA/chromosome information here
 
 has dna => ( is => 'rw' );
 
+=head2 elite
+
+mark this indiviudal as being elite, bool [0|1]
+
+=cut
+
+has elite => ( is => 'rw', isa => 'Bool' );
+
+
 =head2 fitness
 
 attribute for storing individual fitness
