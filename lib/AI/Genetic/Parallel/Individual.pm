@@ -5,7 +5,7 @@ use namespace::autoclean;
 
 =head1 NAME
 
-AI::Genetic::Parallel::Individual
+AI::Genetic::Parallel::Individual - class for indiviudal member of genetic alg population
 
 =head1 VERSION
 
