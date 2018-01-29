@@ -26,7 +26,11 @@ Represents an indiviudal for use in AI::Genetic::Parallel
         dna => '01010101110101',
     );
 
+    #  update the individual fitness
     $individual->fitness( 12 );
+
+    #  mark individual as elite
+    $individual->elite( 1 );
 
 =head1 METHODS
 
