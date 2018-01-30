@@ -1,6 +1,6 @@
 =head1 NAME
 
-AI::Genetic::Parallel::Individual
+AI::Genetic::Parallel::Individual - class for indiviudal member of AI::Genetic::Parallel
 
 =head1 VERSION
 
@@ -31,6 +31,10 @@ store the DNA/chromosome information here
 =head2 elite
 
 mark this indiviudal as being elite, bool [0|1]
+
+=head2 death_wish
+
+mark this indiviudal as ready to be killed, bool [0|1].  When the reaper is let loose on the population this member, if marked, will be terminated.
 
 =head2 fitness
 

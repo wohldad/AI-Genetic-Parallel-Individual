@@ -50,6 +50,13 @@ mark this indiviudal as being elite, bool [0|1]
 
 has elite => ( is => 'rw', isa => 'Bool' );
 
+=head2 death_wish
+
+mark this indiviudal as ready to be killed, bool [0|1].  When the reaper is let loose on the population this member, if marked, will be terminated.
+
+=cut
+
+has death_wish => ( is => 'rw', isa => 'Bool', default => 0 );
 
 =head2 fitness
 

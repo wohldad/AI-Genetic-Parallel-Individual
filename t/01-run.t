@@ -8,4 +8,4 @@ plan tests => 1;
 
 use AI::Genetic::Parallel::Individual;
 
-can_ok( 'AI::Genetic::Parallel::Individual', 'new', 'dna', 'fitness', 'elite' );
+can_ok( 'AI::Genetic::Parallel::Individual', 'new', 'dna', 'fitness', 'elite', 'death_wish' );
