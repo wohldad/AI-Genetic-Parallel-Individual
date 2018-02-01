@@ -44,15 +44,15 @@ has dna => ( is => 'rw' );
 
 =head2 elite
 
-mark this indiviudal as being elite, bool [0|1]
+mark this indiviudal as being elite, bool [0|1] - default 0
 
 =cut
 
-has elite => ( is => 'rw', isa => 'Bool' );
+has elite => ( is => 'rw', isa => 'Bool', default => 0 );
 
 =head2 death_wish
 
-mark this indiviudal as ready to be killed, bool [0|1].  When the reaper is let loose on the population this member, if marked, will be terminated.
+mark this indiviudal as ready to be killed, bool [0|1] - default 0.  When the reaper is let loose on the population this member, if marked, will be terminated.
 
 =cut
 

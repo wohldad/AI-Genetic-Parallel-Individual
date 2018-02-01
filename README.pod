@@ -30,11 +30,11 @@ store the DNA/chromosome information here
 
 =head2 elite
 
-mark this indiviudal as being elite, bool [0|1]
+mark this indiviudal as being elite, bool [0|1] - default 0
 
 =head2 death_wish
 
-mark this indiviudal as ready to be killed, bool [0|1].  When the reaper is let loose on the population this member, if marked, will be terminated.
+mark this indiviudal as ready to be killed, bool [0|1] - default 0.  When the reaper is let loose on the population this member, if marked, will be terminated.
 
 =head2 fitness
 
